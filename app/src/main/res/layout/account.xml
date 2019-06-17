@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:fillViewport="true" >
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/layoutpic"
+            android:background="#5fb0c9"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginTop="20sp"
+                android:background="@color/black"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="150dp">
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/accountpic"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher_round"
+                android:contentDescription="ID"
+                tools:ignore="HardcodedText"
+                tools:targetApi="lollipop" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/accountname"
+                android:textStyle="bold"
+                android:layout_marginTop="10sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:text="John Lewis"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/layoutcontent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_margin="5sp"
+                android:padding="5sp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="Class"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/accountclass"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="10th"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="5sp"
+                android:padding="5sp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="Admission No"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/accountadmissionno"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="123456789"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="5sp"
+                android:padding="5sp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="Date of Birth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/accountdob"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="01/01/2000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="5sp"
+                android:padding="5sp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="Contact No"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/accountcontact"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="9876543210"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="5sp"
+                android:padding="5sp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="Guardian's Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/accountguardian"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="Andrew G. Dobbs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="5sp"
+                android:padding="5sp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="Address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/accountaddress"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="600 Amphitheatre Parkway, Mountain View, CA, 94043"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
